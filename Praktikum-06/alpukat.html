@@ -51,6 +51,35 @@
         #pesan {
             text-align: center;
         }
+        .gaya li {
+            color: white;
+            font-size: larger;
+        }
+        .gaya b {
+            color: white;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-spacing: 0px;
+        }
+        table th, td {
+            padding: 5px;
+            padding-right: 20px;
+        }
+        table th {
+            color: white;
+            background-color: brown;
+        }
+        table #satu {
+            background-color: burlywood;
+        }
+        table #dua {
+            background-color: white;
+        }
     </style>
 </head>
 <body>
@@ -91,15 +120,15 @@
     <p>
     <h3>Berikut khasiat buah Alpukat:</h3>
     <ol class="gaya">
-        <li>Vitamin E</li>
-        Memiliki <i>anti aging</i> yang bisa 
-        mendorong perawatan kulit alamai
-        <li>Vitamin K</li>
-        Membantu mencegah terjadinya osteoporosis
-        <li>Viitamin B5</li>
-        Membantu menurunkan tingkat stress, meringankan rasa sakit
-        <li>Vitamin B6</li>
-        Membantu treat diabetes, pendarahan menstruasi, insomnia
+        <li><b>Vitamin E</b></li>
+        Memiliki <b><i>anti aging</i></b> yang bisa <br>
+        mendorong perawatan kulit alami
+        <li><b>Vitamin K</b></li>
+        Membantu <b>mencegah</b><br> terjadinya osteoporosis
+        <li><b>Vitamin B5</b></li>
+        Membantu <b>menurunkan</b> tingkat <br> stress, meringankan rasa sakit
+        <li><b>Vitamin B6</b></li>
+        Membantu <b>treat diabetes,</b><br> pendarahan menstruasi, insomnia
     </ol>
     </p>
 
@@ -121,6 +150,44 @@
             Gimana? Tertarik !
         </h3>
     </div>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Jenis Alpukat</th>
+            <th>Harga 1 Kg</th>
+            <th>Harga 2 Kg</th>
+            <th>Harga 3 Kg</th>
+        </tr>
+        <tr id="satu">
+            <td>1</td>
+            <td>Alpukat Mentega</td>
+            <td>Rp. 35.000,-</td>
+            <td>Rp. 65.000,-</td>
+            <td>Rp. 90.000,-</td>
+        </tr>
+        <tr id="dua">
+            <td>2</td>
+            <td>Alpukat Miki</td>
+            <td>Rp. 50.000,-</td>
+            <td>Rp. 90.000,-</td>
+            <td>Rp. 135.000,-</td>
+        </tr>
+        <tr id="satu">
+            <td>3</td>
+            <td>Alpukat Aligator</td>
+            <td>Rp. 30.000,-</td>
+            <td>Rp. 55.000,-</td>
+            <td>Rp. 80.000,-</td>
+        </tr>
+        <tr id="dua">
+            <td>4</td>
+            <td>Alpukat Kendil</td>
+            <td>Rp. 40.000,-</td>
+            <td>Rp. 75.000,-</td>
+            <td>Rp. 100.000,-</td>
+        </tr>
+    </table>
+    <br>
     <div class="cod">
         <p>
             PEMBAYARAN DI TEMPAT / COD <br />hanya untuk Jakarta, Bekasi dan Depok
