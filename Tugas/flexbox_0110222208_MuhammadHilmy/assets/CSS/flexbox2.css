@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 5vh;
+  background-color: palevioletred;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+aside {
+  min-width: 20vw;
+  background-color: royalblue;
+}
+
+article {
+  flex-grow: 1;
+  background-color: crimson;
+}
+
+article img {
+  justify-content: space-between;
+  height: 25vh;
+}
+
+header, footer {
+  background-color: mediumturquoise;
+  min-height: 10vh;
+}
+
+header, article, aside, footer {
+  margin: 1vw;
+}

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+article, aside {
+  min-width: 20vw;
+}
+
+header, footer {
+  min-height: 10vh;
+  background-color: bisque;
+}
+
+nav {
+  min-width: 20vw;
+  background-color: pink;
+}
+
+article {
+  flex-grow: 1;
+}
+
+aside {
+  background-color: aqua;
+}
+
+nav, header, article, aside, footer {
+  padding: 40px;
+}

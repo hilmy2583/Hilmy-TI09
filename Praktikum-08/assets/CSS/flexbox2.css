@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#main {
+  display: flex;
+  flex: 1;
+}
+
+#main article {
+  flex: 1;
+  order: 1;
+  background: greenyellow;
+}
+
+#main nav,
+#main aside {
+  flex: 0 0 20vw;
+}
+
+#main nav {
+  background: blueviolet;
+  order: 3;
+}
+
+#main aside {
+  background: firebrick;
+  order: 2;
+}
+
+header, footer {
+  background: khaki;
+  height: 20vh;
+}
+
+header, footer, article, nav, aside {
+  padding: 1em;
+}
