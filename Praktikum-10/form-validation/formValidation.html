@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <style>
+    .container{
+      background-color: lightblue;
+      width: 30%;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .frm{
+      margin-left: 25%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+    img{
+      margin-left: 25%;
+      margin-top: 10%;
+      width: 50%;
+      border-radius: 50%;
+    }
+    p{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="image/profile.png" alt="profile">
+    <form class="frm">
+      Nama: 
+      <br>
+      <input type="text" id="name"><span id="errorName"></span>
+      <br>
+      Email: 
+      <br>
+      <input type="email" id="email"><span id="errorEmail"></span>
+      <br>
+      Jam Keberangkatan: 
+      <br>
+      <input type="time" id="time"><span id="errorTime"></span>
+      <br>
+      Tujuan Keberangkatan: 
+      <br>
+      <input type="text" id="for"><span id="errorFor"></span>
+      <br>
+      Jumlah Tiket: 
+      <br>
+      <input type="number" min="1" max="10" style="width: 64px;" id="sum"><span id="errorSum"></span>
+      <br> <br>
+      <button value="Submit" id="submit">Submit</button>
+      <!-- <input type="button" value="Submit" id="submit" width="20vh"> -->
+    </form>
+  </div>
+
+  <script>
+    
+  </script>
+</body>
+</html>
